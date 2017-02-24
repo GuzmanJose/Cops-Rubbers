@@ -10,7 +10,7 @@ body {
 	color: white;
 	text-align: center;
 	padding: 12px;
-	top: 50px;
+	margin-top: 5%;
 	color: #ED6418;
 }
 
@@ -27,6 +27,12 @@ body {
 	color: white;
 	text-align: center;
 	padding: 13px;
+}
+
+.text {
+	color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
 }
 
 .handcops {
@@ -110,7 +116,6 @@ body {
 	box-shadow: 10px 10px 15px #000000;
 }
 
-
 .buttonRegular {
 	height: 90px;
 	width: 250px;		
@@ -120,12 +125,19 @@ body {
 	margin: 0 auto;
 	margin-top: 10px;
 }
-
 .playIt {
 	font-size: 3em;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	padding: 12px;
+}
+
+.playItCenter {
+	font-size: 1.2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: white;
+	padding: 15px;
 }
 
 .orange {
@@ -165,13 +177,13 @@ body {
 }
 
 .textDescriptionAnimation {
-	transform: translate(0px, -100px);
+	transform: translate(0px, -170px);
 	transition: transform 1000ms ease-out;
 	animation-delay: 1000ms;
 }
 
 .textDescriptionBackground {
-	height: 100vh;
+	height: 120vh;
 	width: 100%;
 }
 
@@ -270,6 +282,15 @@ a:hover {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 2.5em;
 	margin-top: 15%;
+}
+
+.buyOption {
+	margin-top: -10%;
+	margin-bottom: 10%;
+}
+
+.form-group {
+	margin-bottom: 55px;
 }
 
 @media only screen and (max-device-width: 480px) {     /*Mobile Device*/
@@ -449,8 +470,7 @@ a:hover {
 @media only screen and (max-width: 1500px) {     /* Laptop size */
 
 body {
-	background-color: pink;
-	overflow-x: hidden;
+	overflow-x: hidden;	
 }
 
 .columns {
@@ -478,7 +498,7 @@ body {
 }
 
 .awardAnimationOutRight {
-	transform: translate(-330px, 0px);
+	transform: translate(-660px, 0px);
 	transition: transform 1000ms ease-out;
 	animation-delay: 1000ms;
 
@@ -491,19 +511,19 @@ body {
 	border-radius: 10px;
 	border-color: #ED6418;
 	margin: 0 auto;
-	margin-bottom: 80px;
 }
 
 .press {
 	width: 100%;
-	height: 170vh;
+	height: 130vh;
 }
 
 .textCenter {
+	color: white;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 2.5em;
-	margin-top: 5%;
+	margin-top: -5%;
 }
 
 .faq {
